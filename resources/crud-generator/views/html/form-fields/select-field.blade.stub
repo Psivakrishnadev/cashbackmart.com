@@ -1,0 +1,9 @@
+ 
+{{--<select class="form-control selectric" name="%%itemName%%" id="%%itemName%%" %%required%%>
+        @foreach (\App\::all() as $item)
+        <option value="{{$item->id}}" @if(isset($%%crudNameSingular%%->%%itemName%%))
+            @if($%%crudNameSingular%%->%%itemName%% == $item->name) selected @endif
+            @endif>
+            {{$item->name}}
+        </option>
+@endforeach--}}
